@@ -47,6 +47,7 @@ def encrypt():
     char = request.form['text']
     return form.format(rotate_string(char, num))
 
+
 app.run()
 
 
